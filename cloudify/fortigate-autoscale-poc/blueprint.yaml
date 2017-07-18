@@ -8,7 +8,9 @@ description: >
 imports:
   - http://www.getcloudify.org/spec/cloudify/4.0/types.yaml
   - http://www.getcloudify.org/spec/openstack-plugin/2.0.1/plugin.yaml
-
+  #snmp types:
+  - https://raw.githubusercontent.com/cloudify-cosmo/cloudify-diamond-snmp-extension/4.0.1/types/snmp-types.yaml
+    
 inputs:
   fos_imageid:
     default: {}

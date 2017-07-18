@@ -1,10 +1,10 @@
-fos_imageid: '7cb018a3-87f8-4137-b631-1a085e473efc'
-fos_flavorid: '81fa4ad6-c010-425e-a107-c1666ac02f0c '
-#ub_imageid: ''
-#ub_flavorid: '81fa4ad6-c010-425e-a107-c1666ac02f0c '
+fos_imageid: "4d5d6ba5-1090-4c5a-99ca-b7b902da8e53"
+fos_flavorid: "e4774afa-4ccb-4f2b-afe3-89da5ee3664e"
+ub_imageid: "fe2397ac-88f1-41d6-bbeb-705e2d560173"
+ub_flavorid: "e4774afa-4ccb-4f2b-afe3-89da5ee3664e"
 mgmt_network_name: "mgmt"
 key_name: 'default'
-fortimanagerip: 10.210.8.25
+fortimanagerip: "10.210.8.25"
 #keystone_password: 'fortinet'
 #keystone_tenant_name: 'admin'
 #keystone_url: 'http://10.10.10.26:5000/v2.0/'

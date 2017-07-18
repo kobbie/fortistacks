@@ -6,6 +6,9 @@ export LC_ALL=C
 sudo apt -y install python-pip python-virtualenv wget git
 #sudo pip install --upgrade pip
 wget -c http://repository.cloudifysource.org/cloudify/4.0.0/ga-release/cloudify_4.0.0~ga_amd64.deb                                           
+# newer release 4.0.1 change behavior for the plugin so wait for now on
+# should got with https://github.com/cloudify-examples/cloudify-environment-setup
+
 sudo dpkg -i cloudify*.deb
 
 lxc launch images:centos/7/amd64 cfy-mngr && sleep 12
